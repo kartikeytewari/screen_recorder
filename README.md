@@ -10,3 +10,4 @@ Tech Stack Used:
 - Electron forge
 - Electron packager
 - Git/Github
+- Bulma CSS
