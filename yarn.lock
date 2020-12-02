@@ -1016,7 +1016,7 @@
     "minimist" "^1.2.0"
     "plist" "^3.0.1"
 
-"electron-packager@^15.0.0":
+"electron-packager@^15.0.0", "electron-packager@^15.1.0":
   "integrity" "sha512-THNm4bz1DfvR9f0g51+NjuAYELflM8+1vhQ/iv/G8vyZNKzSMuFd5doobngQKq3rRsLdPNZVnGqDdgS884d7Og=="
   "resolved" "https://registry.yarnpkg.com/electron-packager/-/electron-packager-15.1.0.tgz"
   "version" "15.1.0"
