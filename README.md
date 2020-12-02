@@ -12,11 +12,11 @@ This is a simple screen recording app made using ElectronJS. To compile the app 
     `npm install electron-packager -g`
 - Build the app for your OS and architecture
     - For Windows on x86 architecture: <br>
-        `electron-packager ./ screen_record --platform=win32 --arch=x86`
+        `electron-packager ./ screen_record --platform=win32 --arch=x64`
     - For Windows on arm64 architecture: <br>
         `electron-packager ./ screen_record --platform=win32 --arch=arm64`
     - For MacOSX on x86 architecture: <br>
-        `electron-packager ./ screen_record --platform=darwin --arch=x86`
+        `electron-packager ./ screen_record --platform=darwin --arch=x64`
     - For MacOSX on arm64 architecture: <br>
         `electron-packager ./ screen_record --platform=darwin --arch=arm64`
 
