@@ -900,9 +900,9 @@ electron-winstaller@^4.0.1:
     lodash.template "^4.2.2"
     temp "^0.9.0"
 
-electron@^12.0.6:
-  version "12.0.6"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.6.tgz#2d72fa5a7db553dca3a771b22aa13a676122b4af"
+electron@^12.0.7:
+  version "12.0.7"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.7.tgz#e0fca2c8be34cb7da48c4d15cfb1d2ad666d2718"
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
