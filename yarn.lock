@@ -177,12 +177,12 @@
   optionalDependencies:
     electron-installer-debian "^3.0.0"
 
-"@electron-forge/maker-rpm@^6.0.0-beta.54":
-  version "6.0.0-beta.54"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.0.0-beta.54.tgz"
+"@electron-forge/maker-rpm@^6.0.0-beta.55":
+  version "6.0.0-beta.55"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.0.0-beta.55.tgz#c5923efb4e0d28dd06f9cd667e2691c11c9f031e"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.54"
-    "@electron-forge/shared-types" "6.0.0-beta.54"
+    "@electron-forge/maker-base" "6.0.0-beta.55"
+    "@electron-forge/shared-types" "6.0.0-beta.55"
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
@@ -230,7 +230,10 @@
   version "6.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.55.tgz#9dfc78d81a20bf95f66d393f723b18767896465a"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dependabot/npm_and_yarn/electron-forge/maker-rpm-6.0.0-beta.55
   dependencies:
     "@electron-forge/async-ora" "6.0.0-beta.55"
     electron-packager "^15.0.0"
