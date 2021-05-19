@@ -186,15 +186,15 @@
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
-"@electron-forge/maker-squirrel@^6.0.0-beta.54":
-  version "6.0.0-beta.54"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.54.tgz"
+"@electron-forge/maker-squirrel@^6.0.0-beta.55":
+  version "6.0.0-beta.55"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.55.tgz#f0540ea7c0bee9ad4d4dd1e4a4d7f7a22b17216a"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.54"
-    "@electron-forge/shared-types" "6.0.0-beta.54"
+    "@electron-forge/maker-base" "6.0.0-beta.55"
+    "@electron-forge/shared-types" "6.0.0-beta.55"
     fs-extra "^9.0.1"
   optionalDependencies:
-    electron-winstaller "^4.0.1"
+    electron-winstaller "^5.0.0"
 
 "@electron-forge/maker-zip@^6.0.0-beta.54":
   version "6.0.0-beta.54"
@@ -231,9 +231,12 @@
   resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.55.tgz#9dfc78d81a20bf95f66d393f723b18767896465a"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dependabot/npm_and_yarn/electron-forge/maker-rpm-6.0.0-beta.55
+=======
+>>>>>>> dependabot/npm_and_yarn/electron-forge/maker-squirrel-6.0.0-beta.55
   dependencies:
     "@electron-forge/async-ora" "6.0.0-beta.55"
     electron-packager "^15.0.0"
@@ -973,9 +976,9 @@ electron-squirrel-startup@^1.0.0:
   dependencies:
     debug "^2.2.0"
 
-electron-winstaller@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-4.0.1.tgz"
+electron-winstaller@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-5.0.0.tgz#0db968f34d498b16c69566a40848f562e70e7bcc"
   dependencies:
     asar "^2.0.1"
     debug "^4.1.1"
