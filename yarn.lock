@@ -196,12 +196,12 @@
   optionalDependencies:
     electron-winstaller "^5.0.0"
 
-"@electron-forge/maker-zip@^6.0.0-beta.54":
-  version "6.0.0-beta.54"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-zip/-/maker-zip-6.0.0-beta.54.tgz"
+"@electron-forge/maker-zip@^6.0.0-beta.55":
+  version "6.0.0-beta.55"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-zip/-/maker-zip-6.0.0-beta.55.tgz#63301e736bf0b6618157c0e6882ef6b6e94a64e8"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.54"
-    "@electron-forge/shared-types" "6.0.0-beta.54"
+    "@electron-forge/maker-base" "6.0.0-beta.55"
+    "@electron-forge/shared-types" "6.0.0-beta.55"
     cross-zip "^3.0.0"
     fs-extra "^9.0.1"
 
@@ -232,11 +232,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dependabot/npm_and_yarn/electron-forge/maker-rpm-6.0.0-beta.55
 =======
 >>>>>>> dependabot/npm_and_yarn/electron-forge/maker-squirrel-6.0.0-beta.55
+=======
+>>>>>>> dependabot/npm_and_yarn/electron-forge/maker-zip-6.0.0-beta.55
   dependencies:
     "@electron-forge/async-ora" "6.0.0-beta.55"
     electron-packager "^15.0.0"
