@@ -22,6 +22,16 @@
     ora "^5.0.0"
     pretty-ms "^7.0.0"
 
+"@electron-forge/cli@^6.0.0-beta.54":
+  version "6.0.0-beta.54"
+  resolved "https://registry.yarnpkg.com/@electron-forge/cli/-/cli-6.0.0-beta.54.tgz"
+  dependencies:
+    colors "^1.4.0"
+    debug "^4.3.1"
+    log-symbols "^4.0.0"
+    ora "^5.0.0"
+    pretty-ms "^7.0.0"
+
 "@electron-forge/cli@^6.0.0-beta.55":
   version "6.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@electron-forge/cli/-/cli-6.0.0-beta.55.tgz#b8f74a7f4320c3e0f2d2547629a50ad7d7a5f352"
@@ -154,8 +164,16 @@
   version "6.0.0-beta.54"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.54.tgz"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.54"
-    "@electron-forge/shared-types" "6.0.0-beta.54"
+    "@electron-forge/shared-types" "6.0.0-beta.55"
+    fs-extra "^9.0.1"
+    which "^2.0.2"
+
+"@electron-forge/maker-deb@^6.0.0-beta.55":
+  version "6.0.0-beta.55"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.55.tgz#ac388d2ae1b5c42c4a69798195c6d6623e9e85ad"
+  dependencies:
+    "@electron-forge/maker-base" "6.0.0-beta.55"
+    "@electron-forge/shared-types" "6.0.0-beta.55"
   optionalDependencies:
     electron-installer-debian "^3.0.0"
 
@@ -211,6 +229,18 @@
 "@electron-forge/shared-types@6.0.0-beta.55":
   version "6.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.55.tgz#9dfc78d81a20bf95f66d393f723b18767896465a"
+<<<<<<< HEAD
+=======
+  dependencies:
+    "@electron-forge/async-ora" "6.0.0-beta.55"
+    electron-packager "^15.0.0"
+    electron-rebuild "^2.3.2"
+    ora "^5.0.0"
+
+"@electron-forge/template-base@6.0.0-beta.54":
+  version "6.0.0-beta.54"
+  resolved "https://registry.yarnpkg.com/@electron-forge/template-base/-/template-base-6.0.0-beta.54.tgz"
+>>>>>>> dependabot/npm_and_yarn/electron-forge/maker-deb-6.0.0-beta.55
   dependencies:
     "@electron-forge/async-ora" "6.0.0-beta.55"
     electron-packager "^15.0.0"
