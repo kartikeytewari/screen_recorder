@@ -9,7 +9,7 @@ This is a simple screen recording app made using ElectronJS. To compile the app 
     `npm build`
 - Install electron-packager using <br>
     `npm install electron-packager --save-dev` <br>
-    `npm install electron-packager -g`
+    `npm install electron-packager`
 - Build the app for your OS and architecture
     - For Windows on x86 architecture: <br>
         `electron-packager ./ screen_record --platform=win32 --arch=x64`
