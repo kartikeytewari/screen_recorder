@@ -154,8 +154,16 @@
   version "6.0.0-beta.55"
   resolved "https://registry.npmjs.org/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.55.tgz"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.55"
-    "@electron-forge/shared-types" "6.0.0-beta.55"
+    "@electron-forge/shared-types" "6.0.0-beta.57"
+    fs-extra "^10.0.0"
+    which "^2.0.2"
+
+"@electron-forge/maker-deb@^6.0.0-beta.57":
+  version "6.0.0-beta.57"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.57.tgz#e2f65ab6e0695a3c6b2dde1308ab8a014a400bfe"
+  dependencies:
+    "@electron-forge/maker-base" "6.0.0-beta.57"
+    "@electron-forge/shared-types" "6.0.0-beta.57"
   optionalDependencies:
     electron-installer-debian "^3.0.0"
 
