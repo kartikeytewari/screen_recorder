@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@electron-forge/async-ora@6.0.0-beta.55":
-  version "6.0.0-beta.55"
-  resolved "https://registry.npmjs.org/@electron-forge/async-ora/-/async-ora-6.0.0-beta.55.tgz"
+"@electron-forge/async-ora@6.0.0-beta.57":
+  version "6.0.0-beta.57"
+  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.57.tgz#14da07e663ff62b47fef6ae489d4a679790715c2"
   dependencies:
     colors "^1.4.0"
     debug "^4.3.1"
@@ -12,11 +12,11 @@
     ora "^5.0.0"
     pretty-ms "^7.0.0"
 
-"@electron-forge/async-ora@6.0.0-beta.57":
-  version "6.0.0-beta.57"
-  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.57.tgz#14da07e663ff62b47fef6ae489d4a679790715c2"
+"@electron-forge/async-ora@6.0.0-beta.63":
+  version "6.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.63.tgz#b72343f204f7c74605df658d31cc4c137ad3009c"
   dependencies:
-    colors "^1.4.0"
+    chalk "^4.0.0"
     debug "^4.3.1"
     log-symbols "^4.0.0"
     ora "^5.0.0"
@@ -144,14 +144,6 @@
     "@malept/cross-spawn-promise" "^2.0.0"
     fs-extra "^10.0.0"
 
-"@electron-forge/maker-base@6.0.0-beta.55":
-  version "6.0.0-beta.55"
-  resolved "https://registry.npmjs.org/@electron-forge/maker-base/-/maker-base-6.0.0-beta.55.tgz"
-  dependencies:
-    "@electron-forge/shared-types" "6.0.0-beta.55"
-    fs-extra "^9.0.1"
-    which "^2.0.2"
-
 "@electron-forge/maker-base@6.0.0-beta.57":
   version "6.0.0-beta.57"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.0.0-beta.57.tgz#b30d7734360a96115667f59abab3d76f77cf6d87"
@@ -186,13 +178,13 @@
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
-"@electron-forge/maker-squirrel@^6.0.0-beta.55":
-  version "6.0.0-beta.55"
-  resolved "https://registry.npmjs.org/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.55.tgz"
+"@electron-forge/maker-squirrel@^6.0.0-beta.63":
+  version "6.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.63.tgz#6424f643ec256ed75746b7746bffadc272c5f076"
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.55"
-    "@electron-forge/shared-types" "6.0.0-beta.55"
-    fs-extra "^9.0.1"
+    "@electron-forge/maker-base" "6.0.0-beta.63"
+    "@electron-forge/shared-types" "6.0.0-beta.63"
+    fs-extra "^10.0.0"
   optionalDependencies:
     electron-winstaller "^5.0.0"
 
@@ -216,15 +208,6 @@
   resolved "https://registry.yarnpkg.com/@electron-forge/publisher-base/-/publisher-base-6.0.0-beta.63.tgz#b7327eaa446995c8d7243757829d7fd92d1c2d77"
   dependencies:
     "@electron-forge/shared-types" "6.0.0-beta.63"
-
-"@electron-forge/shared-types@6.0.0-beta.55":
-  version "6.0.0-beta.55"
-  resolved "https://registry.npmjs.org/@electron-forge/shared-types/-/shared-types-6.0.0-beta.55.tgz"
-  dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.55"
-    electron-packager "^15.0.0"
-    electron-rebuild "^2.3.2"
-    ora "^5.0.0"
 
 "@electron-forge/shared-types@6.0.0-beta.57":
   version "6.0.0-beta.57"
@@ -2263,6 +2246,10 @@ node-fetch@^2.6.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   dependencies:
     whatwg-url "^5.0.0"
+
+node-gyp-build@^4.2.1:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
 
 node-gyp-build@^4.2.1:
   version "4.3.0"
