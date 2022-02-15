@@ -933,9 +933,9 @@ electron-winstaller@^5.0.0:
     lodash.template "^4.2.2"
     temp "^0.9.0"
 
-electron@^13.1.3:
-  version "13.1.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-13.1.3.tgz#415acd7e6d5bd2bdefc0f893c4a7e7e9b0611a82"
+electron@^13.3.0:
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-13.3.0.tgz#5f4f245723dd50fcd2c3d386a1d66fe748af404f"
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
