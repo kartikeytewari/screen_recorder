@@ -48,28 +48,11 @@
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",
-<<<<<<< HEAD
-    "@electron-forge/maker-deb": "^6.0.4",
-<<<<<<< HEAD
-=======
     "@electron-forge/maker-deb": "^6.0.5",
->>>>>>> dependabot/npm_and_yarn/electron-forge/maker-deb-6.0.5
-    "@electron-forge/maker-rpm": "^6.0.4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     "@electron-forge/maker-rpm": "^6.0.5",
->>>>>>> dependabot/npm_and_yarn/electron-forge/maker-rpm-6.0.5
-    "@electron-forge/maker-squirrel": "^6.0.4",
-=======
     "@electron-forge/maker-squirrel": "^6.0.5",
->>>>>>> dependabot/npm_and_yarn/electron-forge/maker-squirrel-6.0.5
     "@electron-forge/maker-zip": "^6.0.5",
-=======
-    "@electron-forge/maker-squirrel": "^6.0.5",
-    "@electron-forge/maker-zip": "^6.0.4",
->>>>>>> dependabot/npm_and_yarn/electron-forge/maker-squirrel-6.0.5
     "electron": "^23.0.0",
-    "electron-packager": "^17.1.1"
+    "electron-packager": "^17.1.2"
   }
 }
