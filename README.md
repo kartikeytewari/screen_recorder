@@ -6,19 +6,18 @@ This is a simple screen recording app made using ElectronJS. To compile the app 
 - Go to the folder <br>
     `cd screen_recorder`
 - Build the file using <br>
-    `npm build`
+    `npm start`
 - Install electron-packager using <br>
-    `npm install electron-packager --save-dev` <br>
-    `npm install electron-packager`
+    `npm install electron-packager --save-dev`
 - Build the app for your OS and architecture
     - For Windows on x86 architecture: <br>
-        `electron-packager ./ screen_record --platform=win32 --arch=x64`
+        `npx electron-packager ./ screen_record --out=dist --platform=win32 --arch=x64`
     - For Windows on arm64 architecture: <br>
-        `electron-packager ./ screen_record --platform=win32 --arch=arm64`
+        `npx electron-packager ./ screen_record --out=dist --platform=win32 --arch=arm64`
     - For MacOSX on x86 architecture: <br>
-        `electron-packager ./ screen_record --platform=darwin --arch=x64`
+        `npx electron-packager ./ screen_record --out=dist --platform=darwin --arch=x64`
     - For MacOSX on arm64 architecture: <br>
-        `electron-packager ./ screen_record --platform=darwin --arch=arm64`
+        `npx electron-packager ./ screen_record --out=dist --platform=darwin --arch=arm64`
 
 Tech Stack Used:
 - HTML5
