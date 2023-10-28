@@ -88,5 +88,5 @@ typings/
 # Electron-Forge
 out/
 
-# final app
-screen_record-darwin-x64/
+# binary distribution
+dist/
