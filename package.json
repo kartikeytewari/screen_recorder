@@ -52,7 +52,7 @@
     "@electron-forge/maker-rpm": "^6.0.5",
     "@electron-forge/maker-squirrel": "^6.0.5",
     "@electron-forge/maker-zip": "^6.0.5",
-    "electron": "^23.3.13",
+    "electron": "^27.0.3",
     "electron-packager": "^17.1.2"
   }
 }
